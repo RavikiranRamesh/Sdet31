@@ -39,7 +39,7 @@ public class CratecontactsampleTest {
 			System.out.println(url);
 			System.out.println(username);
 			System.out.println(password);
-		driver.quit();
+		//driver.quit();
 			
 	}
 
