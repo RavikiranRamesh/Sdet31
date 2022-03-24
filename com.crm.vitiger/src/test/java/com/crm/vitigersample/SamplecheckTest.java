@@ -6,11 +6,16 @@ public class SamplecheckTest {
 	@Test
 	public void check() {
 		System.out.println("Check in github");
+
+		System.out.println("Check in github1");
+
 		
 		System.out.println("hii git hub");
+
 		
 		System.out.println("kiran");
-		System.out.println("");
+		System.out.println("TYSS");
+
 	}
 
 }
