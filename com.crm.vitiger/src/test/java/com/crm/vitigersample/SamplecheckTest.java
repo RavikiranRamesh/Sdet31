@@ -6,6 +6,8 @@ public class SamplecheckTest {
 	@Test
 	public void check() {
 		System.out.println("Check in github");
+		
+		System.out.println("hii git hub");
 	}
 
 }
