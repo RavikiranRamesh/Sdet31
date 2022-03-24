@@ -12,4 +12,8 @@ public class CreatorgsampleTest {
     	System.out.println(" Organization2 created successfully ");
     }
 
+    @Test
+    public void Createorg3() {
+    	System.out.println(" Organization3 created successfully ");
+    }
 }
