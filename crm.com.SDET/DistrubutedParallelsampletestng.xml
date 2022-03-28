@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="RK1">
+    <classes>
+      <class name="PracticeTestNg.CreateOrganizationTest"/>
+      <class name="PracticeTestNg.CreateOrganizationWithIndustryTest"/>
+    </classes>
+  </test> <!-- Test -->
+ <test thread-count="5" name="RK2">
+    <classes>
+      <class name="PracticeTestNg.CreateOpportunitiesTC_19Test"/>
+      <class name="PracticeTestNg.CreateContactTest"/>
+    </classes>
+  </test> <!-- Test -->
+ <test thread-count="5" name="RK3">
+    <classes>
+      <class name="PracticeTestNg.CreateOrganizationWithIndustryTest"/>
+      <class name="PracticeTestNg.CreateOpportunitiesTC_18Test"/>
+      <class name="PracticeTestNg.CreateOpportunitiesTC_19Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
